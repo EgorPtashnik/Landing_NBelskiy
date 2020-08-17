@@ -10,7 +10,8 @@ header {
   text-decoration: none;
 }
 .header-item:hover {
-  text-decoration: underline;
+  transform: scale(1.1, 1.1);
+  text-shadow: 0 0 2px white;
 }
 .header-item:last-child {
   margin-right: 10rem;

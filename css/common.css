@@ -2,6 +2,7 @@
   --main-color: #252525;
   --second-color: whitesmoke;
   --third-color: ghostwhite;
+  scroll-behavior: smooth;
 }
 body {
   margin: 0;

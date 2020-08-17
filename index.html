@@ -15,9 +15,10 @@
 </head>
 <body>
   <header class='bg-black full-width hbox flex-justify-end flex-align-center'>
-    <a href='#' class='header-item text-bold full-height hbox flex-justify-center flex-align-center transition text-white'>Что я умею</a>
-    <a href='#' class='header-item text-bold full-height hbox flex-justify-center flex-align-center transition text-white'>Обо мне</a>
-    <a href='#' class='header-item text-bold full-height hbox flex-justify-center flex-align-center transition text-white'>Мои работы</a>
+    <a id='idSkillsLink' href='#skills' class='header-item text-bold full-height hbox flex-justify-center flex-align-center transition text-white'>Что я умею</a>
+    <a id='idAboutLink' href='#about' class='header-item text-bold full-height hbox flex-justify-center flex-align-center transition text-white'>Обо мне</a>
+    <a id='idGalleryLink' href='#gallery' class='header-item text-bold full-height hbox flex-justify-center flex-align-center transition text-white'>Мои работы</a>
+    <a id='idFooterLink' href='#footer' class='header-item text-bold full-height hbox flex-justify-center flex-align-center transition text-white'>Контакты</a>
   </header>
   <main>
     <section class='jumbo hbox calc-height'>
@@ -34,7 +35,7 @@
         </div>
       </div>
     </section>
-    <section>
+    <section id='skills'>
       <h1 class='main-header no-margin full-width hbox flex-justify-center flex-align-center text-shadow'>Что я умею</h1>
       <div class='hbox flex-align-center flex-justify-center'>
         <div class='hbox flex-wrap skills-wrapper'>
@@ -61,7 +62,7 @@
         </div>
       </div>
     </section>
-    <section>
+    <section id='about'>
       <h1 class='main-header no-margin avatar-header text-white hbox flex-justify-center flex-align-center text-shadow'>Обо мне</h1>
       <div class='avatar-wrapper hbox flex-justify-start bg-white'>
         <img class='avatar hbox' src='./img/avatar.jpg'>
@@ -91,7 +92,7 @@
         </div>
       </div>
     </section>
-    <section class='calc-height bg-white'>
+    <section id='gallery' class='calc-height bg-white'>
       <h1 class='main-header gallery-header hbox flex-align-center flex-justify-center text-shadow text-white no-margin'>Мои работы</h1>
       <div class='hbox flex-align-center flex-justify-center'>
         <div class='gallery hbox flex-align-center flex-wrap'>
@@ -123,7 +124,7 @@
       </div>
     </section>
   </main>
-  <footer class='hbox flex-align-center flex-justify-center'>
+  <footer id='footer' class='hbox flex-align-center flex-justify-center'>
     <div class='hbox' style='align-items: stretch; justify-content: space-evenly; width: 100%'>
       <div class='vbox'>
         <h2 class='no-margin' style='text-align: center'>Мои контакты</h2>
@@ -167,7 +168,7 @@
         </section>
       </div>
       <div class='vbox'>
-        <h2 class='no-margin' style='text-align: center'>Мои контакты</h2>
+        <h2 class='no-margin' style='text-align: center'>Мой телефон</h2>
           <div class='hbox' style='margin-top: 1rem;'>
             <i class='fa fa-phone fa-lg' style='margin-right: 1rem'></i>
             <a href='#' class='footer-link transition'>+375-29-XXX-YY-ZZ</a>
@@ -183,5 +184,7 @@
       </div>
     </div>
   </footer>
+
+  <script type='text/javascript' src='./js/common.js'></script>
 </body>
 </html>
